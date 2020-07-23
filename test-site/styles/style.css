@@ -1,0 +1,67 @@
+
+/* 为整个html设置通用样式 */
+html{
+    font-size: 10px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: rgb(128, 0, 0);
+}
+
+/* 为body设置样式 */
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: hotpink;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+
+}
+
+
+/* 为指定标签设置样式 */
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0;
+    color: #00539f;
+    /* 第一个值设置水平偏移值 —— 即阴影右移的像素数（负值左移）。
+第二个值设置垂直偏移值 —— 即阴影下移的像素数（负值上移）。
+第三个值设置阴影的模糊半径 —— 值越大产生的阴影越模糊。
+第四个值设置阴影的基色。 */
+    text-shadow: 3px 3px 1px blue;
+}
+img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+
+
+/* id选择器 
+  desc: 所有指定类型的 HTML 元素
+  example: p 选择 <p>
+*/
+/* 类选择器 
+  desc: 具有特定 ID 的元素（单一 HTML 页面中，每个 ID 只对应一个元素，一个元素只对应一个 ID）
+  example: #my-id
+选择 <p id="my-id"> 或 <a id="my-id">
+*/
+/* 属性选择器 
+  desc: 具有特定类的元素（单一页面中，一个类可以有多个实例）
+  example: .my-class
+选择 <p class="my-class"> 和 <a class="my-class">
+*/
+/* 伪类选择器 
+  desc: 特定状态下的特定元素（比如鼠标指针悬停）
+  example: a:hover
+仅在鼠标指针悬停在链接上时选择 <a>。
+
+*/
